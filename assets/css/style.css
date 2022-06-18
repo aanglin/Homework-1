@@ -101,7 +101,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Cleaned up CSS by combining classes that had the same specs */
 .search-engine-optimization,.online-reputation-management,.social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -112,7 +112,7 @@ p {
 }
 
 /* Cleaned up CSS by combining all images into one tag */
-img{
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img{
     max-height: 200px;
 }
 
